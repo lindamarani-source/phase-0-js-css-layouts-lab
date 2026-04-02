@@ -1,14 +1,4 @@
-.cat-breed img
-{
-     max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-.cat-breed:hover
-{
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-    transform: scale(1.05);
-}
+
 .cat-container{ 
     background-color: rgb(255, 255, 255);
     padding: 2em;
@@ -29,10 +19,25 @@
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
+.cat-breed img
+{
+     max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.cat-breed:hover
+{
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
 .cat-breed h3
 {
     margin: 0.5em 0 1em;
+}
+.cat-breed p
+{
+    font-size: 0.9em;
+    color: #555;
 }
 @media (max-width: 600px) {
     .container {
@@ -43,9 +48,4 @@
         flex: 1 1 100%;
         max-width: 100%;
     }
-}
-.cat-breed p
-{
-    font-size: 0.9em;
-    color: #555;
 }
