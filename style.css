@@ -1,0 +1,47 @@
+.cat-container
+{
+    background-color: rgb(255, 255, 255);
+    padding: 2em;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cat-breed
+{
+    margin: 1em;
+    border-radius: 10px;
+    flex: 1 1 300px;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+.cat-breed img
+{
+     max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.cat-breed h3
+{
+    margin: 0.5em 0 1em;
+}
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cat-breed {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+.cat-breed:hover
+{
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
