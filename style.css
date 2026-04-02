@@ -1,5 +1,4 @@
-.cat-container
-{
+.cat-container{
     background-color: rgb(255, 255, 255);
     padding: 2em;
     text-align: center;
@@ -9,6 +8,7 @@
 }
 .cat-breed
 {
+    transition: transform 0.3s;
     margin: 1em;
     border-radius: 10px;
     flex: 1 1 300px;
@@ -17,7 +17,6 @@
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition:transform 0.3s, box-shadow 0.3s;
 }
 .cat-breed img
 {
